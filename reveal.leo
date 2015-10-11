@@ -308,8 +308,6 @@
 <v t="40323252.20151011210217.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323252.20151011210217.6" a="E"><vh>div class="slides"</vh>
 <v t="40323252.20151011210217.7"><vh>有關我的作業</vh></v>
-<v t="40323252.20151011210217.8"><vh>作業任務1</vh></v>
-<v t="40323252.20151011210217.9"><vh>作業任務2</vh></v>
 <v t="40323252.20151011210217.10"><vh>心得與自評</vh></v>
 </v>
 </v>
@@ -528,7 +526,7 @@
 <t tx="40323252.20151011210217.10">&lt;section&gt;
     &lt;h2&gt;心得與自評&lt;/h2&gt;
     &lt;p&gt;經過這兩次的上課了解到以後交作業的方式 相信會慢慢熟悉這方式的&lt;/p&gt;
-     &lt;p&gt;評分 : 80分&lt;/p&gt;
+     &lt;p&gt;評分 : 100分&lt;/p&gt;
     
 &lt;/a&gt;&lt;/section&gt;
 				
@@ -581,33 +579,10 @@
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h2&gt;電1212121與實習&lt;/h2&gt;
+    &lt;h2&gt;電腦輔助設計與實習&lt;/h2&gt;
     &lt;p&gt;40323252-廖麒源-10/11&lt;/p&gt;		
 &lt;/section&gt;
 	
-</t>
-<t tx="40323252.20151011210217.8">&lt;section id="hw-task-one"&gt;
-    &lt;h2&gt;筆記&lt;/h2&gt;
-    
-    &lt;p&gt;覆蓋檔案上傳&lt;/p&gt;
-    &lt;p&gt;cd tmp&lt;/p&gt;
-    &lt;p&gt;git clone&lt;/p&gt;
-    &lt;p&gt;cd 檔名&lt;/p&gt;
-    &lt;p&gt;git add .&lt;/p&gt;
-    &lt;p&gt;git config --global user.name ""&lt;/p&gt;
-    &lt;p&gt;git config --global user.email ""&lt;/p&gt;
-  
-  &lt;/a&gt;&lt;/section&gt;
-				
-</t>
-<t tx="40323252.20151011210217.9">&lt;section id="hw-task-one"&gt;
-    &lt;p&gt;git commit -m ""&lt;/p&gt;
-    &lt;p&gt;git push origin 分支名稱&lt;/p&gt;
-    &lt;p&gt;安裝 : pip install pelican Markdown&lt;/p&gt;
-  &lt;p&gt;&lt;a href="http://wordpress-2015course.rhcloud.com/"&gt;上課網址
-  
-  &lt;/a&gt;&lt;/section&gt;
-				
 </t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
