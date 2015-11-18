@@ -37,7 +37,8 @@
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
-<v t="40323252.20151103231230.1"><vh>@edit 2015cphww5.md</vh></v>
+<v t="40323252.20151103231230.1"><vh>@edit 2015cphww8.md</vh></v>
+<v t="40323252.20151118192648.1"><vh>@edit 2015cphww5.md</vh></v>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 <v t="40323252.20151011205854.1"><vh>@edit 2015cphww4.md</vh></v>
@@ -299,6 +300,20 @@
 </v>
 </v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323252.20151118192855.1"><vh>@clean simplest4.html</vh>
+<v t="40323252.20151118192855.2"><vh>檔案說明</vh></v>
+<v t="40323252.20151118192855.3" a="E"><vh>html 標註</vh>
+<v t="40323252.20151118192855.4" a="E"><vh>body 標註</vh>
+<v t="40323252.20151118192855.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323252.20151118192855.6" a="E"><vh>div class="slides"</vh>
+<v t="40323252.20151118192855.7"><vh>有關我的作業</vh></v>
+<v t="40323252.20151118192855.8"><vh>心得與自評</vh></v>
+</v>
+</v>
+<v t="40323252.20151118192855.9"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -659,6 +674,72 @@
 				
 </t>
 <t tx="40323252.20151103231826.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323252.20151118192855.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323252.20151118192855.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323252.20151118192855.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323252.20151118192855.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323252.20151118192855.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20151118192855.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20151118192855.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h2&gt;電腦輔助設計與實習&lt;/h2&gt;
+    &lt;p&gt;40323252-廖麒源-11/18&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323252.20151118192855.8">&lt;section&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;p&gt;學期的一半過了,自己的進度總是在別人做完以後,有了影片有了步驟,才能照著他們的內容自己去完成功課,我是個沒有繪圖證照的人所以對我來說不管2D還是3D我都有心理障礙,導致我就會能閃就閃而不去面對這些軟體,藉著這幾次上課我漸漸去摸索這些軟體,發現其實沒想像中困難只要努力都是可以完成這些功課的 &lt;/p&gt;
+     &lt;p&gt;評分 :70分&lt;/p&gt;
+    
+&lt;/a&gt;&lt;/section&gt;
+				
+</t>
+<t tx="40323252.20151118192855.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
     // 啟動 Reveal.
