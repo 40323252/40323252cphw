@@ -36,7 +36,9 @@
 </v>
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
-<v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
+<v t="amd.20150919114010.1"><vh>@path pelican\content</vh>
+<v t="40323252.20160103020319.1"><vh>@edit 2015cphww15.md</vh></v>
+<v t="40323252.20160103021200.1"><vh>@edit 2015cphww11.md</vh></v>
 <v t="40323252.20151103231230.1"><vh>@edit 2015cphww8.md</vh></v>
 <v t="40323252.20151118192648.1"><vh>@edit 2015cphww5.md</vh></v>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
@@ -314,6 +316,34 @@
 </v>
 </v>
 <v t="40323252.20151118192855.9"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323252.20160103020824.1"><vh>@clean simplest5.html</vh>
+<v t="40323252.20160103020824.2"><vh>檔案說明</vh></v>
+<v t="40323252.20160103020824.3" a="E"><vh>html 標註</vh>
+<v t="40323252.20160103020824.4" a="E"><vh>body 標註</vh>
+<v t="40323252.20160103020824.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323252.20160103020824.6" a="E"><vh>div class="slides"</vh>
+<v t="40323252.20160103020824.7"><vh>有關我的作業</vh></v>
+<v t="40323252.20160103020824.8"><vh>心得與自評</vh></v>
+</v>
+</v>
+<v t="40323252.20160103020824.9"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323252.20160103021026.1"><vh>@clean simplest6.html</vh>
+<v t="40323252.20160103021026.2"><vh>檔案說明</vh></v>
+<v t="40323252.20160103021026.3" a="E"><vh>html 標註</vh>
+<v t="40323252.20160103021026.4" a="E"><vh>body 標註</vh>
+<v t="40323252.20160103021026.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323252.20160103021026.6" a="E"><vh>div class="slides"</vh>
+<v t="40323252.20160103021026.7"><vh>有關我的作業</vh></v>
+<v t="40323252.20160103021026.8"><vh>心得與自評</vh></v>
+</v>
+</v>
+<v t="40323252.20160103021026.9"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -740,6 +770,141 @@
 				
 </t>
 <t tx="40323252.20151118192855.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323252.20160103020824.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323252.20160103020824.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323252.20160103020824.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323252.20160103020824.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323252.20160103020824.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20160103020824.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20160103020824.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h2&gt;電腦輔助設計與實習&lt;/h2&gt;
+    &lt;p&gt;40323252-廖麒源-1/3&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323252.20160103020824.8">&lt;section&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;p&gt;Creo基本的畫零件都可以比較輕鬆的摸索出來組合的話是藉由同學的影片跟著做把它完成的這次採分組方式進行我覺得這樣的效果不錯雖然還是會辛苦到某些人但是這樣會警惕自己不要拖累他們所以大家會趕快完成自己被分配到的零件然後大家一起學組合完成這次的作業
+ &lt;/p&gt;
+     &lt;p&gt;評分 :70分&lt;/p&gt;
+    
+&lt;/a&gt;&lt;/section&gt;
+				
+</t>
+<t tx="40323252.20160103020824.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323252.20160103021026.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323252.20160103021026.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323252.20160103021026.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323252.20160103021026.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323252.20160103021026.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20160103021026.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323252.20160103021026.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h2&gt;電腦輔助設計與實習&lt;/h2&gt;
+    &lt;p&gt;40323252-廖麒源-1/3&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323252.20160103021026.8">&lt;section&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;p&gt;Onshape這能直接在網頁上工作是個滿方便的功能零件繪畫的部分也是滿簡單的
+這次組合遇到的困難比較多包括要約束什麼的最大距離與最小距離之間的差距這些對自己來說都是比較複雜的藉由別組的影片與同組之間的討論協助我完成這次的作業
+ &lt;/p&gt;
+     &lt;p&gt;評分 :70分&lt;/p&gt;
+    
+&lt;/a&gt;&lt;/section&gt;
+				
+</t>
+<t tx="40323252.20160103021026.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
     // 啟動 Reveal.
