@@ -20,7 +20,7 @@
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1"><vh>專案架構</vh>
+<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -36,7 +36,7 @@
 </v>
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican\content</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="40323252.20160103020319.1"><vh>@edit 2015cphww16.md</vh></v>
 <v t="40323252.20160105175349.1"><vh>@edit 2015cphww15.md</vh></v>
 <v t="40323252.20160105174307.1"><vh>@edit 2015cphww12.md</vh></v>
@@ -307,7 +307,7 @@
 </v>
 </v>
 </v>
-<v t="40323252.20151118192855.1" a="E"><vh>@clean simplest4.html</vh>
+<v t="40323252.20151118192855.1"><vh>@clean simplest4.html</vh>
 <v t="40323252.20151118192855.2"><vh>檔案說明</vh></v>
 <v t="40323252.20151118192855.3" a="E"><vh>html 標註</vh>
 <v t="40323252.20151118192855.4" a="E"><vh>body 標註</vh>
